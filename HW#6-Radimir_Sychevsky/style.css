@@ -1,0 +1,22 @@
+
+.in_progress{
+    background-color: #da0c00;
+    color: #da0c00;
+    text-decoration: none;
+}
+.done{
+    background-color: #1e950f;
+    color: #1e950f;
+    text-decoration: underline;
+}
+.list-item{
+    background-color: white;
+    border: black;
+    border-radius: 10px;
+}
+.invisible{
+    display: none;
+}
+.visible{
+    display: flex;
+}

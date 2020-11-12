@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="todo__block">
+    <h1>
+        To Do list
+    </h1>
+    <div class="todo__input-block">
+        <input type="text" class="todo__input-block__input-text">
+        <input type="date" class="todo__input-block__input-date">
+        <input type="button" class="todo__input-block__add-button" value="add">
+    </div>
+    <div class="todo__filters">
+        <select class="todo__filters__ready-or-not">
+            <option>All tasks</option>
+            <option>In progress tasks</option>
+            <option>Ready</option>
+        </select>
+        <select class="todo__filters__deadline">
+            <option>All tasks</option>
+            <option>Tomorrow</option>
+            <option>Week</option>
+        </select>
+    </div>
+    <div class="todo__item-list-block">
+        <ul class="todo__list"></ul>
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
