@@ -1,3 +1,51 @@
+body{
+    color: #110768;
+}
+ul {
+    padding: 0;
+}
+h1{
+    font-family: "Gill Sans MT";
+}
+.todo__input-block{
+    width: 50%;
+    border: 2px solid #110768;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.todo__input-block__input-text{
+    width: 70%;
+    border: none;
+    outline: none;
+}
+.todo__input-block__input-date{
+    border: none;
+    outline: none;
+}
+.todo__input-block__add-button{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.delete-task_button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.todo__filters{
+    margin-top: 20px;
+    border: 2px solid #110768;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+.todo__filters__ready-or-not, .todo__filters__deadline{
+    border: none;
+    outline: none;
+}
 
 .in_progress{
     background-color: #da0c00;
@@ -10,9 +58,18 @@
     text-decoration: underline;
 }
 .list-item{
+    margin-top: 5px;
+    width: 50%;
     background-color: white;
-    border: black;
     border-radius: 10px;
+    border: 2px solid #110768;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+.list-item__text{
+    width: 70%;
 }
 .invisible{
     display: none;
